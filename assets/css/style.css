@@ -1,0 +1,663 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+*::selection {
+  background: #ec812f;
+  color: white;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+body {
+  width: 100%;
+  height: 5200px;
+}
+/*header css starts*/
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+/*logo and search css starts*/
+.logo-search {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: white;
+}
+
+.logo-search .logo-section {
+  flex: 0.5;
+  width: 100%;
+  height: 50px;
+}
+.logo-section .logo-text {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: #ec812f;
+  font-weight: bolder;
+  font-size: x-large;
+  width: 30%;
+  height: 50px;
+  transition: all;
+  transition-duration: 0.3s;
+}
+.logo-text:hover {
+  color: black;
+  -webkit-text-stroke: 1px #ec812f;
+}
+
+.search-section {
+  flex: 0.5;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 50px;
+}
+.search-section input {
+  border: 1px solid #ec812f;
+  padding: 10px;
+  height: 40px;
+}
+.search-section .fa-solid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 50px;
+  background-color: #ec812f;
+  cursor: pointer;
+}
+/*logo and search css ends*/
+
+/*navigation bar css starts*/
+
+.nav-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #ec812f;
+  display: flex;
+}
+.nav-bar-left {
+  flex: 0.5;
+  width: 100%;
+}
+.nav-bar-left ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.nav-bar-left ul li {
+  padding: 7px 10px 7px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+.nav-bar-left ul li a {
+  color: white;
+  font-weight: 10px;
+  padding: 7px;
+  text-decoration: none;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.nav-bar-left ul li a:hover {
+  background-color: white;
+  color: #ec812f;
+  padding: 7px;
+}
+
+.nav-bar-right {
+  flex: 0.5;
+  width: 100%;
+}
+.nav-bar-right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.nav-bar-right ul li {
+  padding-left: 30px;
+  padding-right: 30px;
+  list-style-type: none;
+}
+.nav-bar-right ul li a {
+  color: white;
+}
+.nav-bar-right ul li a i {
+  font-size: large;
+  transition: all;
+  transition-duration: 0.3s;
+  padding: 7px;
+}
+.nav-bar-right ul li a i:hover {
+  background-color: white;
+  color: #ec812f;
+  padding: 7px;
+}
+/*navigation bar css ends*/
+
+/*main css starts*/
+
+.sections-part {
+  width: 100%;
+  position: relative;
+  height: 5100px;
+}
+
+/*banner css starts*/
+.banner-section {
+  top: 100px;
+  width: 100%;
+  height: 500px;
+}
+.banner-section img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+/*banner css ends*/
+
+/*category section css starts*/
+.category-section {
+  width: 100%;
+  height: 700px;
+}
+.category-section .category-container {
+  margin: 0px 50px;
+}
+.category-container .category-text {
+  font-size: x-large;
+  text-align: center;
+  padding: 20px 0px;
+}
+.category-container .category-icons {
+  width: 100%;
+  padding: 10px 0px;
+}
+.category-card-row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.category-card-row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.category-card-row3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14.2%;
+  height: 200px;
+  padding: 15px 0px;
+}
+
+.category-card img {
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+.category-card img:hover {
+  border: 3px solid #ec812f;
+}
+.category-card img:hover + .category-card-text {
+  color: #ec812f;
+}
+
+.category-card .category-card-text {
+  padding: 20px 0px;
+}
+/*category section css ends*/
+
+/*luxury sofa css starts*/
+.banner2-container {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  margin: 30px 0px;
+}
+.banner2-container img {
+  width: 100%;
+  object-fit: cover;
+  height: 230px;
+}
+.banner2-container .banner2-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: grey;
+  cursor: pointer;
+}
+.banner2-container .banner2-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-align: center;
+}
+.banner2-container:hover .banner2-overlay {
+  opacity: 0.8;
+}
+/*luxury sofa css ends*/
+
+/*trending offer section css starts*/
+
+.trending-offer-section {
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+}
+.trending-offer-section .trending-offer-heading {
+  text-align: center;
+  padding: 10px 0px;
+}
+.trending-offer-heading .trending-heading-text {
+  color: #ec812f;
+  font-size: x-large;
+}
+.trending-offer-section .trending-offer-container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+}
+.trending-offer-container .trending-offer-post {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trending-offer-container .trending-offer-products {
+  flex: 0.8;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+}
+.trending-offer-products .trending-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 370px;
+}
+.trending-horizontal .trending-product-card {
+  text-align: center;
+  margin-right: 30px;
+  padding: 0px 15px;
+}
+
+.trending-product-card a {
+  text-decoration: none;
+  color: black;
+}
+.trending-product-price::after {
+  content: " 10% Off";
+  color: red;
+}
+.fa-star {
+  color: gold;
+}
+/*trending offer section css ends*/
+
+/*top seller section css starts*/
+.top-seller-section {
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+}
+.top-seller-section .top-seller-heading {
+  text-align: center;
+  padding: 10px 0px;
+}
+.top-seller-heading .top-heading-text {
+  color: #ec812f;
+  font-size: x-large;
+}
+.top-seller-section .top-seller-container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+}
+.top-seller-container .top-seller-products {
+  flex: 0.8;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  margin-right: 20px;
+}
+.top-seller-container .topseller-right {
+  flex: 0.2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.top-seller-products .top-seller-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 370px;
+}
+.top-seller-horizontal .topseller-product-card {
+  text-align: center;
+  margin-right: 30px;
+  padding: 0px 15px;
+}
+.topseller-product-card a {
+  text-decoration: none;
+  color: black;
+}
+.topseller-product-price::after {
+  content: " 10% Off";
+  color: red;
+}
+.fa-star {
+  color: gold;
+}
+/*top seller css ends*/
+
+/*great deals section css starts*/
+
+.great-deals-section {
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+.great-deals-section .great-deals-heading {
+  text-align: center;
+  padding: 10px 0px;
+}
+.great-deals-heading .greatdeals-heading-text {
+  color: #ec812f;
+  font-size: x-large;
+}
+.great-deals-section .great-deals-container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+}
+.great-deals-container .greatdeals-left-post {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.great-deals-container .great-deals-products {
+  flex: 0.8;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+}
+.great-deals-products .greatdeals-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 370px;
+}
+.greatdeals-horizontal .greatdeals-product-card {
+  text-align: center;
+  margin-right: 30px;
+  padding: 0px 15px;
+}
+.greatdeals-product-card a {
+  text-decoration: none;
+  color: black;
+}
+.greatdeals-product-price::after {
+  content: " 10% Off";
+  color: red;
+}
+.fa-star {
+  color: gold;
+}
+/*great deals section css ends*/
+
+/*banner3 css starts*/
+
+.banner3-container {
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+.banner3-container img {
+  width: 100%;
+  object-fit: cover;
+  height: 230px;
+}
+.banner3-container .banner3-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: grey;
+  cursor: pointer;
+}
+.banner3-container .banner3-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-align: center;
+}
+.banner3-container:hover .banner3-overlay {
+  opacity: 0.8;
+}
+
+/*banner3 css ends*/
+
+/*banner4 section starts*/
+
+.banner4-section {
+  margin: 30px 0px;
+  height: 350px;
+  display: flex;
+}
+.banner4-image-container {
+  width: 100%;
+  padding: 10px;
+}
+.banner4-section .banner4-left {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner4-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner4-section .banner4-right {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner4-right img {
+  width: 100%;
+  height: 100%;
+}
+/*banner4 section ends*/
+
+/*new arrival section css starts*/
+
+.new-arrival-section {
+  margin-top: 30px;
+  width: 100%;
+  height: 850px;
+  padding: 0 20px;
+}
+.new-arrival-section .newarrival-heading {
+  text-align: center;
+  padding: 10px 0px;
+}
+.newarrival-heading .newarrival-heading-text {
+  color: #ec812f;
+  font-size: x-large;
+}
+.new-arrival-section .newarrival-card-container {
+  width: 100%;
+  border: 0.5px solid grey;
+}
+.newarrival-card-container .newarrival-product-cards1 {
+  margin: 20px;
+  display: flex;
+  height: 350px;
+  justify-content: space-around;
+  align-items: center;
+}
+.newarrival-card-container .newarrival-product-cards2 {
+  margin: 20px;
+  display: flex;
+  height: 350px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.newarrival-product-card {
+  text-align: center;
+  margin-right: 30px;
+  padding: 0px 15px;
+}
+.newarrival-product-card a {
+  text-decoration: none;
+  color: black;
+}
+.newarrival-product-price::after {
+  content: " 10% Off";
+  color: red;
+}
+/*new arrival section css starts*/
+
+.newsletter-section {
+  margin-top: 30px;
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+.newsletter-section .newsletter-image-container {
+  height: 100px;
+}
+.newsletter-image-container img {
+  object-fit: cover;
+  width: 100%;
+}
+.newsletter-section .newsletter-text-container {
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+  height: 300px;
+  bottom: 0;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-text-container .newsletter-text-part {
+  width: 70%;
+}
+.newsletter-text-part h3 {
+  color: white;
+  margin: 20px 0px;
+}
+.newsletter-text-part input {
+  padding: 7px 60px 7px 10px;
+  margin-bottom: 20px;
+}
+.newsletter-text-part h5 {
+  color: white;
+}
+.fa-paper-plane {
+  background-color: #ec812f;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+}
+/*new arrival section css ends*/
+
+/*sponsors section css starts*/
+.sponsors-section {
+  margin-top: 30px;
+  width: 100%;
+  height: 70px;
+}
+.sponsors-section .sponsors-heading {
+  width: 100%;
+  padding: 10px 0px 7px 0px;
+}
+.sponsors-heading .sponsors-heading-text {
+  text-align: center;
+  color: #ec812f;
+  font-size: x-large;
+}
+.sponsors-section .sponsors-image-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sponsors-image-container img {
+  box-shadow: 0px 2px 2px grey;
+}
+/*sponsors section css ends*/
+
+/*main css ends*/
+
+/*footer css starts*/
+
+footer a {
+  text-decoration: none;
+}
+
+/*footer css ends*/
