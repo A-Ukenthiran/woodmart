@@ -15,12 +15,12 @@
 }
 body {
   width: 100%;
-  height: 5200px;
+  height: 325rem;
 }
 /*header css starts*/
 .header {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -28,7 +28,7 @@ body {
 /*logo and search css starts*/
 .logo-search {
   width: 100%;
-  height: 50px;
+  height: 3.125rem;
   display: flex;
   background-color: white;
 }
@@ -36,19 +36,19 @@ body {
 .logo-search .logo-section {
   flex: 0.5;
   width: 100%;
-  height: 50px;
+  height: 3.125rem;
 }
 .logo-section .logo-text {
   display: flex;
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 1.875rem;
   color: #ec812f;
   font-weight: bolder;
   font-size: x-large;
   width: 30%;
-  height: 50px;
+  height: 3.125rem;
   transition: all;
   transition-duration: 0.3s;
 }
@@ -69,19 +69,19 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-right: 50px;
+  padding-right: 3.125rem;
 }
 .search-section input {
   border: 1px solid #ec812f;
-  padding: 10px;
-  height: 40px;
+  padding: 0.625rem;
+  height: 2.5rem;
 }
 .search-section .fa-solid {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 50px;
+  height: 2.5rem;
+  width: 3.125rem;
   background-color: #ec812f;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@ body {
 
 .nav-bar {
   width: 100%;
-  height: 50px;
+  height: 3.125rem;
   background-color: #ec812f;
   display: flex;
 }
@@ -103,18 +103,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 3.125rem;
 }
 .nav-bar-left ul li {
-  padding: 7px 10px 7px 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 0.4375rem 0.625rem 0.4375rem 0.625rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
   list-style-type: none;
 }
 .nav-bar-left ul li a {
   color: white;
-  font-weight: 10px;
-  padding: 7px;
+  font-weight: 0.625rem;
+  padding: 0.4375rem;
   text-decoration: none;
   transition: all;
   transition-duration: 0.3s;
@@ -123,7 +123,7 @@ body {
 .nav-bar-left ul li a:hover {
   background-color: white;
   color: #ec812f;
-  padding: 7px;
+  padding: 0.4375rem;
 }
 
 .nav-bar-right {
@@ -134,11 +134,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 3.125rem;
 }
 .nav-bar-right ul li {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
   list-style-type: none;
 }
 .nav-bar-right ul li a {
@@ -148,12 +148,12 @@ body {
   font-size: large;
   transition: all;
   transition-duration: 0.3s;
-  padding: 7px;
+  padding: 0.4375rem;
 }
 .nav-bar-right ul li a i:hover {
   background-color: white;
   color: #ec812f;
-  padding: 7px;
+  padding: 0.4375rem;
 }
 /*navigation bar css ends*/
 
@@ -162,14 +162,14 @@ body {
 .sections-part {
   width: 100%;
   position: relative;
-  height: 5100px;
+  height: 318.75rem;
 }
 
 /*banner css starts*/
 .banner-section {
-  top: 100px;
+  top: 6.25rem;
   width: 100%;
-  height: 500px;
+  height: 31.25rem;
 }
 .banner-section img {
   object-fit: cover;
@@ -181,37 +181,37 @@ body {
 /*category section css starts*/
 .category-section {
   width: 100%;
-  height: 700px;
+  height: 43.75rem;
 }
 .category-section .category-container {
-  margin: 0px 50px;
+  margin: 0rem 3.125rem;
 }
 .category-container .category-text {
   font-size: x-large;
   text-align: center;
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 .category-container .category-icons {
   width: 100%;
-  padding: 10px 0px;
+  padding: 0.625rem 0rem;
 }
 .category-card-row1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .category-card-row2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .category-card-row3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .category-card {
@@ -220,8 +220,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 14.2%;
-  height: 200px;
-  padding: 15px 0px;
+  height: 12.5rem;
+  padding: 0.9375rem 0rem;
 }
 
 .category-card img {
@@ -236,7 +236,7 @@ body {
 }
 
 .category-card .category-card-text {
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 /*category section css ends*/
 
@@ -244,13 +244,13 @@ body {
 .banner2-container {
   position: relative;
   width: 100%;
-  height: 230px;
-  margin: 30px 0px;
+  height: 14.375rem;
+  margin: 1.875rem 0rem;
 }
 .banner2-container img {
   width: 100%;
   object-fit: cover;
-  height: 230px;
+  height: 14.375rem;
 }
 .banner2-container .banner2-overlay {
   position: absolute;
@@ -269,7 +269,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
 }
 .banner2-container:hover .banner2-overlay {
@@ -280,13 +280,13 @@ body {
 /*trending offer section css starts*/
 
 .trending-offer-section {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   width: 100%;
-  height: 400px;
+  height: 25rem;
 }
 .trending-offer-section .trending-offer-heading {
   text-align: center;
-  padding: 10px 0px;
+  padding: 0.625rem 0rem;
 }
 .trending-offer-heading .trending-heading-text {
   color: #ec812f;
@@ -294,7 +294,7 @@ body {
 }
 .trending-offer-section .trending-offer-container {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   display: flex;
 }
 .trending-offer-container .trending-offer-post {
@@ -309,19 +309,19 @@ body {
   overflow-y: hidden;
   position: relative;
   width: 100%;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .trending-offer-products .trending-horizontal {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 370px;
+  height: 23.125rem;
 }
 .trending-horizontal .trending-product-card {
   text-align: center;
-  margin-right: 30px;
-  padding: 0px 15px;
+  margin-right: 1.875rem;
+  padding: 0rem 0.9375rem;
 }
 
 .trending-product-card a {
@@ -339,13 +339,13 @@ body {
 
 /*top seller section css starts*/
 .top-seller-section {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   width: 100%;
-  height: 400px;
+  height: 25rem;
 }
 .top-seller-section .top-seller-heading {
   text-align: center;
-  padding: 10px 0px;
+  padding: 0.625rem 0rem;
 }
 .top-seller-heading .top-heading-text {
   color: #ec812f;
@@ -353,7 +353,7 @@ body {
 }
 .top-seller-section .top-seller-container {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   display: flex;
 }
 .top-seller-container .top-seller-products {
@@ -362,7 +362,7 @@ body {
   overflow-y: hidden;
   position: relative;
   width: 100%;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .top-seller-container .topseller-right {
   flex: 0.2;
@@ -377,12 +377,12 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 370px;
+  height: 23.125rem;
 }
 .top-seller-horizontal .topseller-product-card {
   text-align: center;
-  margin-right: 30px;
-  padding: 0px 15px;
+  margin-right: 1.875rem;
+  padding: 0rem 0.9375rem;
 }
 .topseller-product-card a {
   text-decoration: none;
@@ -400,13 +400,13 @@ body {
 /*great deals section css starts*/
 
 .great-deals-section {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   width: 100%;
-  height: 500px;
+  height: 31.25rem;
 }
 .great-deals-section .great-deals-heading {
   text-align: center;
-  padding: 10px 0px;
+  padding: 0.625rem 0rem;
 }
 .great-deals-heading .greatdeals-heading-text {
   color: #ec812f;
@@ -414,7 +414,7 @@ body {
 }
 .great-deals-section .great-deals-container {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   display: flex;
 }
 .great-deals-container .greatdeals-left-post {
@@ -429,19 +429,19 @@ body {
   overflow-y: hidden;
   position: relative;
   width: 100%;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .great-deals-products .greatdeals-horizontal {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 370px;
+  height: 23.125rem;
 }
 .greatdeals-horizontal .greatdeals-product-card {
   text-align: center;
-  margin-right: 30px;
-  padding: 0px 15px;
+  margin-right: 1.875rem;
+  padding: 0rem 0.9375rem;
 }
 .greatdeals-product-card a {
   text-decoration: none;
@@ -461,12 +461,12 @@ body {
 .banner3-container {
   position: relative;
   width: 100%;
-  height: 230px;
+  height: 14.375rem;
 }
 .banner3-container img {
   width: 100%;
   object-fit: cover;
-  height: 230px;
+  height: 14.375rem;
 }
 .banner3-container .banner3-overlay {
   position: absolute;
@@ -485,7 +485,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
 }
 .banner3-container:hover .banner3-overlay {
@@ -497,13 +497,13 @@ body {
 /*banner4 section starts*/
 
 .banner4-section {
-  margin: 30px 0px;
-  height: 350px;
+  margin: 1.875rem 0rem;
+  height: 21.875rem;
   display: flex;
 }
 .banner4-image-container {
   width: 100%;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .banner4-section .banner4-left {
   flex: 0.5;
@@ -532,14 +532,14 @@ body {
 /*new arrival section css starts*/
 
 .new-arrival-section {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   width: 100%;
-  height: 850px;
-  padding: 0 20px;
+  height: 53.125rem;
+  padding: 0 1.25rem;
 }
 .new-arrival-section .newarrival-heading {
   text-align: center;
-  padding: 10px 0px;
+  padding: 0.625rem 0rem;
 }
 .newarrival-heading .newarrival-heading-text {
   color: #ec812f;
@@ -550,24 +550,24 @@ body {
   border: 0.5px solid grey;
 }
 .newarrival-card-container .newarrival-product-cards1 {
-  margin: 20px;
+  margin: 1.25rem;
   display: flex;
-  height: 350px;
+  height: 21.875rem;
   justify-content: space-around;
   align-items: center;
 }
 .newarrival-card-container .newarrival-product-cards2 {
-  margin: 20px;
+  margin: 1.25rem;
   display: flex;
-  height: 350px;
+  height: 21.875rem;
   justify-content: space-around;
   align-items: center;
 }
 
 .newarrival-product-card {
   text-align: center;
-  margin-right: 30px;
-  padding: 0px 15px;
+  margin-right: 1.875rem;
+  padding: 0rem 0.9375rem;
 }
 .newarrival-product-card a {
   text-decoration: none;
@@ -580,13 +580,13 @@ body {
 /*new arrival section css starts*/
 
 .newsletter-section {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   width: 100%;
-  height: 350px;
+  height: 21.875rem;
   position: relative;
 }
 .newsletter-section .newsletter-image-container {
-  height: 100px;
+  height: 6.25rem;
 }
 .newsletter-image-container img {
   object-fit: cover;
@@ -595,8 +595,8 @@ body {
 .newsletter-section .newsletter-text-container {
   position: absolute;
   top: 0;
-  margin-top: 30px;
-  height: 300px;
+  margin-top: 1.875rem;
+  height: 18.75rem;
   bottom: 0;
   width: 40%;
   display: flex;
@@ -608,11 +608,11 @@ body {
 }
 .newsletter-text-part h3 {
   color: white;
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
 }
 .newsletter-text-part input {
-  padding: 7px 60px 7px 10px;
-  margin-bottom: 20px;
+  padding: 0.4375rem 3.75rem 0.4375rem 0.625rem;
+  margin-bottom: 1.25rem;
 }
 .newsletter-text-part h5 {
   color: white;
@@ -620,20 +620,20 @@ body {
 .fa-paper-plane {
   background-color: #ec812f;
   color: white;
-  padding: 12px;
+  padding: 0.75rem;
   cursor: pointer;
 }
 /*new arrival section css ends*/
 
 /*sponsors section css starts*/
 .sponsors-section {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   width: 100%;
-  height: 70px;
+  height: 4.375rem;
 }
 .sponsors-section .sponsors-heading {
   width: 100%;
-  padding: 10px 0px 7px 0px;
+  padding: 0.625rem 0rem 0.4375rem 0rem;
 }
 .sponsors-heading .sponsors-heading-text {
   text-align: center;
@@ -641,14 +641,14 @@ body {
   font-size: x-large;
 }
 .sponsors-section .sponsors-image-container {
-  padding-top: 20px;
+  padding-top: 1.25rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .sponsors-image-container img {
-  box-shadow: 0px 2px 2px grey;
+  box-shadow: 0rem 0.125rem 0.125rem grey;
 }
 /*sponsors section css ends*/
 
