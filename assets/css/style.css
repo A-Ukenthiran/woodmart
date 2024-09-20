@@ -13,9 +13,17 @@
 *::-webkit-scrollbar {
   display: none;
 }
+html{
+  font-size: 0.781vw;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
 body {
+  font-size: 1.8rem;
   width: 100%;
   height: 325rem;
+   overflow-x: hidden;
 }
 /*header css starts*/
 .header {
