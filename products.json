@@ -1,0 +1,781 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Beading",
+      "category_image": "assets/images/beading.png",
+      "products": [
+        {
+          "product_id": 101,
+          "product_name": "Wooden Beading Strip",
+          "original_price": 15.00,
+          "discounted_price": 12.99
+        },
+        {
+          "product_id": 102,
+          "product_name": "Metal Beading Wire",
+          "original_price": 10.00,
+          "discounted_price": 8.50
+        },
+        {
+          "product_id": 103,
+          "product_name": "Plastic Beading Kit",
+          "original_price": 25.00,
+          "discounted_price": 22.00
+        },
+        {
+          "product_id": 104,
+          "product_name": "Beading Tools Set",
+          "original_price": 30.00,
+          "discounted_price": 28.00
+        },
+        {
+          "product_id": 105,
+          "product_name": "Beading Thread Pack",
+          "original_price": 6.00,
+          "discounted_price": 5.50
+        }
+      ]
+    },
+    {
+      "category_id": 2,
+      "category_name": "Door & Frames",
+      "category_image": "assets/images/doorframes.jpg",
+      "products": [
+        {
+          "product_id": 201,
+          "product_name": "Wooden Door Frame",
+          "original_price": 100.00,
+          "discounted_price": 75.99
+        },
+        {
+          "product_id": 202,
+          "product_name": "PVC Door Frame",
+          "original_price": 80.00,
+          "discounted_price": 60.00
+        },
+        {
+          "product_id": 203,
+          "product_name": "Aluminum Door Frame",
+          "original_price": 150.00,
+          "discounted_price": 130.00
+        },
+        {
+          "product_id": 204,
+          "product_name": "Hollow Core Door Frame",
+          "original_price": 120.00,
+          "discounted_price": 95.00
+        },
+        {
+          "product_id": 205,
+          "product_name": "Steel Frame Door",
+          "original_price": 180.00,
+          "discounted_price": 150.00
+        }
+      ]
+    },
+    {
+      "category_id": 3,
+      "category_name": "Doors & Shutters",
+      "category_image": "assets/images/doorshutters.png",
+      "products": [
+        {
+          "product_id": 301,
+          "product_name": "Sliding Glass Door",
+          "original_price": 300.00,
+          "discounted_price": 250.00
+        },
+        {
+          "product_id": 302,
+          "product_name": "Roller Shutter",
+          "original_price": 200.00,
+          "discounted_price": 180.00
+        },
+        {
+          "product_id": 303,
+          "product_name": "Wooden Door Shutter",
+          "original_price": 150.00,
+          "discounted_price": 130.00
+        },
+        {
+          "product_id": 304,
+          "product_name": "Bi-Fold Door",
+          "original_price": 220.00,
+          "discounted_price": 190.00
+        },
+        {
+          "product_id": 305,
+          "product_name": "PVC Door Shutter",
+          "original_price": 80.00,
+          "discounted_price": 70.00
+        }
+      ]
+    },
+    {
+      "category_id": 4,
+      "category_name": "Bamboo Products",
+      "category_image": "assets/images/bambooproducts.png",
+      "products": [
+        {
+          "product_id": 401,
+          "product_name": "Bamboo Mat",
+          "original_price": 18.00,
+          "discounted_price": 15.00
+        },
+        {
+          "product_id": 402,
+          "product_name": "Bamboo Straws",
+          "original_price": 8.00,
+          "discounted_price": 5.50
+        },
+        {
+          "product_id": 403,
+          "product_name": "Bamboo Toothbrush",
+          "original_price": 4.00,
+          "discounted_price": 3.50
+        },
+        {
+          "product_id": 404,
+          "product_name": "Bamboo Tray",
+          "original_price": 20.00,
+          "discounted_price": 17.00
+        },
+        {
+          "product_id": 405,
+          "product_name": "Bamboo Basket",
+          "original_price": 25.00,
+          "discounted_price": 22.00
+        }
+      ]
+    },
+    {
+      "category_id": 5,
+      "category_name": "Ceiling Wall Panels",
+      "category_image": "assets/images/ceilingwallpanels.png",
+      "products": [
+        {
+          "product_id": 501,
+          "product_name": "PVC Ceiling Panel",
+          "original_price": 30.00,
+          "discounted_price": 22.99
+        },
+        {
+          "product_id": 502,
+          "product_name": "Gypsum Wall Panel",
+          "original_price": 25.00,
+          "discounted_price": 18.00
+        },
+        {
+          "product_id": 503,
+          "product_name": "Acoustic Ceiling Tile",
+          "original_price": 50.00,
+          "discounted_price": 45.00
+        },
+        {
+          "product_id": 504,
+          "product_name": "Wooden Wall Panel",
+          "original_price": 80.00,
+          "discounted_price": 60.00
+        },
+        {
+          "product_id": 505,
+          "product_name": "Ceiling Grid System",
+          "original_price": 35.00,
+          "discounted_price": 28.00
+        }
+      ]
+    },
+    {
+      "category_id": 6,
+      "category_name": "Adhesive",
+      "category_image": "assets/images/adhesive.png",
+      "products": [
+        {
+          "product_id": 601,
+          "product_name": "Wood Adhesive",
+          "original_price": 7.00,
+          "discounted_price": 4.99
+        },
+        {
+          "product_id": 602,
+          "product_name": "Super Glue",
+          "original_price": 5.00,
+          "discounted_price": 3.50
+        },
+        {
+          "product_id": 603,
+          "product_name": "Spray Adhesive",
+          "original_price": 12.00,
+          "discounted_price": 9.50
+        },
+        {
+          "product_id": 604,
+          "product_name": "Double-Sided Tape",
+          "original_price": 6.00,
+          "discounted_price": 4.50
+        },
+        {
+          "product_id": 605,
+          "product_name": "Contact Cement",
+          "original_price": 8.00,
+          "discounted_price": 6.50
+        }
+      ]
+    },
+    {
+      "category_id": 7,
+      "category_name": "Furniture",
+      "category_image": "assets/images/furniture.png",
+      "products": [
+        {
+          "product_id": 701,
+          "product_name": "Wooden Chair",
+          "original_price": 150.00,
+          "discounted_price": 120.00
+        },
+        {
+          "product_id": 702,
+          "product_name": "Glass Coffee Table",
+          "original_price": 180.00,
+          "discounted_price": 150.00
+        },
+        {
+          "product_id": 703,
+          "product_name": "Recliner Sofa",
+          "original_price": 300.00,
+          "discounted_price": 250.00
+        },
+        {
+          "product_id": 704,
+          "product_name": "Wooden Cabinet",
+          "original_price": 200.00,
+          "discounted_price": 170.00
+        },
+        {
+          "product_id": 705,
+          "product_name": "Dining Table Set",
+          "original_price": 250.00,
+          "discounted_price": 220.00
+        }
+      ]
+    },
+    {
+      "category_id": 8,
+      "category_name": "Edge Binding Tape",
+      "category_image": "assets/images/edgebindingtape.png",
+      "products": [
+        {
+          "product_id": 801,
+          "product_name": "Wood Edge Binding Tape",
+          "original_price": 7.00,
+          "discounted_price": 5.00
+        },
+        {
+          "product_id": 802,
+          "product_name": "Plastic Edge Binding Tape",
+          "original_price": 4.50,
+          "discounted_price": 2.99
+        },
+        {
+          "product_id": 803,
+          "product_name": "Fabric Edge Binding Tape",
+          "original_price": 8.00,
+          "discounted_price": 6.00
+        },
+        {
+          "product_id": 804,
+          "product_name": "Edge Banding Roll",
+          "original_price": 15.00,
+          "discounted_price": 12.00
+        },
+        {
+          "product_id": 805,
+          "product_name": "Wooden Edge Binding Tape",
+          "original_price": 10.00,
+          "discounted_price": 7.50
+        }
+      ]
+    },
+    {
+      "category_id": 9,
+      "category_name": "Kid Toys",
+      "category_image": "assets/images/kidtoys.png",
+      "products": [
+        {
+          "product_id": 901,
+          "product_name": "Building Blocks",
+          "original_price": 20.00,
+          "discounted_price": 15.99
+        },
+        {
+          "product_id": 902,
+          "product_name": "Toy Car Set",
+          "original_price": 12.00,
+          "discounted_price": 10.00
+        },
+        {
+          "product_id": 903,
+          "product_name": "Plush Teddy Bear",
+          "original_price": 25.00,
+          "discounted_price": 18.99
+        },
+        {
+          "product_id": 904,
+          "product_name": "Action Figure Set",
+          "original_price": 30.00,
+          "discounted_price": 25.00
+        },
+        {
+          "product_id": 905,
+          "product_name": "Puzzle Set",
+          "original_price": 15.00,
+          "discounted_price": 12.00
+        }
+      ]
+    },
+    {
+      "category_id": 10,
+      "category_name": "Laminates",
+      "category_image": "assets/images/laminates.png",
+      "products": [
+        {
+          "product_id": 1001,
+          "product_name": "Wooden Laminate Sheet",
+          "original_price": 25.00,
+          "discounted_price": 22.00
+        },
+        {
+          "product_id": 1002,
+          "product_name": "Glossy Laminate Sheet",
+          "original_price": 30.00,
+          "discounted_price": 27.00
+        },
+        {
+          "product_id": 1003,
+          "product_name": "Textured Laminate Sheet",
+          "original_price": 35.00,
+          "discounted_price": 30.00
+        },
+        {
+          "product_id": 1004,
+          "product_name": "Matte Laminate Sheet",
+          "original_price": 28.00,
+          "discounted_price": 24.00
+        },
+        {
+          "product_id": 1005,
+          "product_name": "High Gloss Laminate",
+          "original_price": 40.00,
+          "discounted_price": 35.00
+        }
+      ]
+    },
+    {
+      "category_id": 11,
+      "category_name": "Handicrafts",
+      "category_image": "assets/images/handicrafts.png",
+      "products": [
+        {
+          "product_id": 1101,
+          "product_name": "Hand-painted Vase",
+          "original_price": 15.00,
+          "discounted_price": 12.00
+        },
+        {
+          "product_id": 1102,
+          "product_name": "Wooden Sculpture",
+          "original_price": 40.00,
+          "discounted_price": 35.00
+        },
+        {
+          "product_id": 1103,
+          "product_name": "Handwoven Basket",
+          "original_price": 20.00,
+          "discounted_price": 17.50
+        },
+        {
+          "product_id": 1104,
+          "product_name": "Terracotta Pot",
+          "original_price": 25.00,
+          "discounted_price": 22.00
+        },
+        {
+          "product_id": 1105,
+          "product_name": "Rajasthani Wooden Art",
+          "original_price": 30.00,
+          "discounted_price": 27.00
+        }
+      ]
+    },
+    {
+      "category_id": 12,
+      "category_name": "HandTools",
+      "category_image": "assets/images/handtools.png",
+      "products": [
+        {
+          "product_id": 1201,
+          "product_name": "Hammer",
+          "original_price": 10.00,
+          "discounted_price": 8.50
+        },
+        {
+          "product_id": 1202,
+          "product_name": "Screwdriver Set",
+          "original_price": 12.00,
+          "discounted_price": 10.00
+        },
+        {
+          "product_id": 1203,
+          "product_name": "Measuring Tape",
+          "original_price": 5.00,
+          "discounted_price": 3.99
+        },
+        {
+          "product_id": 1204,
+          "product_name": "Pliers Set",
+          "original_price": 15.00,
+          "discounted_price": 12.00
+        },
+        {
+          "product_id": 1205,
+          "product_name": "Utility Knife",
+          "original_price": 8.00,
+          "discounted_price": 6.50
+        }
+      ]
+    },
+    {
+      "category_id": 13,
+      "category_name": "Fitting & Hardwares",
+      "category_image": "assets/images/fittinghardwares.png",
+      "products": [
+        {
+          "product_id": 1301,
+          "product_name": "Door Lock Set",
+          "original_price": 20.00,
+          "discounted_price": 18.00
+        },
+        {
+          "product_id": 1302,
+          "product_name": "Hinge Set",
+          "original_price": 8.00,
+          "discounted_price": 6.50
+        },
+        {
+          "product_id": 1303,
+          "product_name": "Nail Gun",
+          "original_price": 40.00,
+          "discounted_price": 35.00
+        },
+        {
+          "product_id": 1304,
+          "product_name": "Wall Anchor Set",
+          "original_price": 5.00,
+          "discounted_price": 3.99
+        },
+        {
+          "product_id": 1305,
+          "product_name": "Pipe Fitting Kit",
+          "original_price": 12.00,
+          "discounted_price": 10.50
+        }
+      ]
+    },
+    {
+      "category_id": 14,
+      "category_name": "Powerful Tools",
+      "category_image": "assets/images/powerfultools.png",
+      "products": [
+        {
+          "product_id": 1401,
+          "product_name": "Power Drill",
+          "original_price": 100.00,
+          "discounted_price": 85.00
+        },
+        {
+          "product_id": 1402,
+          "product_name": "Angle Grinder",
+          "original_price": 90.00,
+          "discounted_price": 75.00
+        },
+        {
+          "product_id": 1403,
+          "product_name": "Electric Saw",
+          "original_price": 120.00,
+          "discounted_price": 100.00
+        },
+        {
+          "product_id": 1404,
+          "product_name": "Jigsaw",
+          "original_price": 80.00,
+          "discounted_price": 70.00
+        },
+        {
+          "product_id": 1405,
+          "product_name": "Impact Wrench",
+          "original_price": 150.00,
+          "discounted_price": 120.00
+        }
+      ]
+    },
+    {
+      "category_id": 15,
+      "category_name": "Wooden Flooring",
+      "category_image": "assets/images/woodenflooring.png",
+      "products": [
+        {
+          "product_id": 1501,
+          "product_name": "Oak Wood Flooring",
+          "original_price": 50.00,
+          "discounted_price": 45.00
+        },
+        {
+          "product_id": 1502,
+          "product_name": "Maple Wood Flooring",
+          "original_price": 60.00,
+          "discounted_price": 55.00
+        },
+        {
+          "product_id": 1503,
+          "product_name": "Bamboo Flooring",
+          "original_price": 40.00,
+          "discounted_price": 35.00
+        },
+        {
+          "product_id": 1504,
+          "product_name": "Cherry Wood Flooring",
+          "original_price": 55.00,
+          "discounted_price": 50.00
+        },
+        {
+          "product_id": 1505,
+          "product_name": "Walnut Flooring",
+          "original_price": 65.00,
+          "discounted_price": 60.00
+        }
+      ]
+    },
+    {
+      "category_id": 16,
+      "category_name": "Plywoods & Boards",
+      "category_image": "assets/images/plywoodsboards.png",
+      "products": [
+        {
+          "product_id": 1601,
+          "product_name": "Marine Plywood",
+          "original_price": 40.00,
+          "discounted_price": 35.00
+        },
+        {
+          "product_id": 1602,
+          "product_name": "MDF Board",
+          "original_price": 25.00,
+          "discounted_price": 20.00
+        },
+        {
+          "product_id": 1603,
+          "product_name": "Blockboard",
+          "original_price": 50.00,
+          "discounted_price": 45.00
+        },
+        {
+          "product_id": 1604,
+          "product_name": "Pine Plywood",
+          "original_price": 30.00,
+          "discounted_price": 27.00
+        },
+        {
+          "product_id": 1605,
+          "product_name": "Teak Plywood",
+          "original_price": 60.00,
+          "discounted_price": 55.00
+        }
+      ]
+    },
+    {
+      "category_id": 17,
+      "category_name": "Rattan Products",
+      "category_image": "assets/images/ratanproducts.png",
+      "products": [
+        {
+          "product_id": 1701,
+          "product_name": "Rattan Chair",
+          "original_price": 100.00,
+          "discounted_price": 85.00
+        },
+        {
+          "product_id": 1702,
+          "product_name": "Rattan Basket",
+          "original_price": 15.00,
+          "discounted_price": 12.50
+        },
+        {
+          "product_id": 1703,
+          "product_name": "Rattan Table",
+          "original_price": 80.00,
+          "discounted_price": 70.00
+        },
+        {
+          "product_id": 1704,
+          "product_name": "Rattan Mirror",
+          "original_price": 50.00,
+          "discounted_price": 45.00
+        },
+        {
+          "product_id": 1705,
+          "product_name": "Rattan Lounge Chair",
+          "original_price": 120.00,
+          "discounted_price": 100.00
+        }
+      ]
+    },
+    {
+      "category_id": 18,
+      "category_name": "Staircase",
+      "category_image": "assets/images/staircase.png",
+      "products": [
+        {
+          "product_id": 1801,
+          "product_name": "Wooden Staircase",
+          "original_price": 200.00,
+          "discounted_price": 180.00
+        },
+        {
+          "product_id": 1802,
+          "product_name": "Metal Staircase",
+          "original_price": 250.00,
+          "discounted_price": 220.00
+        },
+        {
+          "product_id": 1803,
+          "product_name": "Glass Staircase",
+          "original_price": 300.00,
+          "discounted_price": 270.00
+        },
+        {
+          "product_id": 1804,
+          "product_name": "Spiral Staircase",
+          "original_price": 350.00,
+          "discounted_price": 300.00
+        },
+        {
+          "product_id": 1805,
+          "product_name": "Modern Staircase Design",
+          "original_price": 400.00,
+          "discounted_price": 350.00
+        }
+      ]
+    },
+    {
+      "category_id": 19,
+      "category_name": "Sports Wear",
+      "category_image": "assets/images/sportswear.png",
+      "products": [
+        {
+          "product_id": 1901,
+          "product_name": "Sports T-shirt",
+          "original_price": 15.00,
+          "discounted_price": 12.00
+        },
+        {
+          "product_id": 1902,
+          "product_name": "Jogging Pants",
+          "original_price": 25.00,
+          "discounted_price": 20.00
+        },
+        {
+          "product_id": 1903,
+          "product_name": "Running Shoes",
+          "original_price": 50.00,
+          "discounted_price": 40.00
+        },
+        {
+          "product_id": 1904,
+          "product_name": "Compression Shorts",
+          "original_price": 20.00,
+          "discounted_price": 18.00
+        },
+        {
+          "product_id": 1905,
+          "product_name": "Sports Jacket",
+          "original_price": 45.00,
+          "discounted_price": 40.00
+        }
+      ]
+    },
+    {
+      "category_id": 20,
+      "category_name": "Sawn Timbers",
+      "category_image": "assets/images/sawntimbers.png",
+      "products": [
+        {
+          "product_id": 2001,
+          "product_name": "Pine Sawn Timber",
+          "original_price": 30.00,
+          "discounted_price": 25.00
+        },
+        {
+          "product_id": 2002,
+          "product_name": "Oak Sawn Timber",
+          "original_price": 35.00,
+          "discounted_price": 30.00
+        },
+        {
+          "product_id": 2003,
+          "product_name": "Teak Sawn Timber",
+          "original_price": 50.00,
+          "discounted_price": 45.00
+        },
+        {
+          "product_id": 2004,
+          "product_name": "Mahogany Timber",
+          "original_price": 55.00,
+          "discounted_price": 50.00
+        },
+        {
+          "product_id": 2005,
+          "product_name": "Cedar Timber",
+          "original_price": 40.00,
+          "discounted_price": 35.00
+        }
+      ]
+    },
+    {
+      "category_id": 21,
+      "category_name": "Kitchen Wears",
+      "category_image": "assets/images/kitchenwears.png",
+      "products": [
+        {
+          "product_id": 2101,
+          "product_name": "Wooden Cutting Board",
+          "original_price": 15.00,
+          "discounted_price": 12.00
+        },
+        {
+          "product_id": 2102,
+          "product_name": "Stainless Steel Knife Set",
+          "original_price": 40.00,
+          "discounted_price": 35.00
+        },
+        {
+          "product_id": 2103,
+          "product_name": "Non-stick Frying Pan",
+          "original_price": 25.00,
+          "discounted_price": 20.00
+        },
+        {
+          "product_id": 2104,
+          "product_name": "Silicone Baking Mat",
+          "original_price": 12.00,
+          "discounted_price": 10.00
+        },
+        {
+          "product_id": 2105,
+          "product_name": "Ceramic Pot Set",
+          "original_price": 30.00,
+          "discounted_price": 27.00
+        }
+      ]
+    }
+  ]
+}

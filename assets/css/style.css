@@ -1,0 +1,261 @@
+/*header css starts*/
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+.header .logo-section {
+  background: #fff;
+}
+.logo-section .logo-text {
+  font-size: 2.3rem;
+  text-decoration: none;
+  color: var(--orange);
+  font-weight: 700;
+}
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.search-bar input {
+  border: 1px solid #ec812f;
+  padding: 0.625rem;
+  height: 2.5rem;
+  width: 20rem;
+  position: relative;
+}
+.search-bar input:focus{
+  border: 1px solid #ec812f;
+  outline: 0;
+}
+.search-bar .fa-magnifying-glass {
+  position: absolute;
+  background-color: #ec812f;
+  cursor: pointer;
+  padding: 0.7rem;
+  color: #fff;
+}
+/*logo and search css ends*/
+
+/*navigation bar css starts*/
+.nav-bar ul{
+  padding-left: 0;
+  margin-bottom: 0;
+  height: 100%;
+}
+#header-links{
+  height: 100%;
+}
+.nav-bar {
+  width: 100%;
+  background-color: #ec812f;
+}
+.nav-bar ul li{
+  margin: 1rem 2rem;
+}
+.nav-bar ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+}
+.nav-bar ul li a:hover{
+  background-color: white;
+  color: #ec812f;
+}
+/*navigation bar css ends*/
+
+/*main css starts*/
+main{
+  margin-top: 5rem;
+}
+/* banner section starts */
+section.banner-section{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+section.banner-section img
+{
+  width: 100%;
+}
+/* banner section ends */
+/*category section css starts*/
+.category-card img {
+  border-radius: 50%;
+  border: 0.15rem solid var(--grey);
+  padding: 0.75rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7rem;
+}
+.category-card img:hover {
+  border: 0.15rem solid var(--orange);
+}
+.category-card img:hover + .category-card-text {
+  color: var(--orange);
+}
+.category-card .category-card-text {
+  padding: 1rem 0rem;
+  color: var(--grey);
+  text-align: center;
+}
+/*category section css ends*/
+
+/*luxury sofa css starts*/
+.banner2-container {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+.banner2-container img {
+  width: 100%;
+  object-fit: cover;
+}
+.banner2-container .banner2-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: var(--orange);
+  cursor: pointer;
+}
+.banner2-container .banner2-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+}
+.banner2-container:hover .banner2-overlay {
+  opacity: 0.8;
+}
+/*luxury sofa css ends*/
+
+/*trending offer section css starts*/
+.trending-offer-wrapper .trending-offer-post img{
+  width: 100%;
+}
+.trending-offer-products {
+  height: 100%;
+}
+.trending-horizontal{
+  height: inherit;
+}
+.trending-horizontal .trending-product-card {
+  text-align: center;
+  padding: 0rem 0.9375rem;
+  border: 0;
+}
+.trending-product-card img{
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+.trending-product-card a {
+  text-decoration: none;
+  color: black;
+}
+.trending-product-price::after {
+  content: " 10% Off";
+  color: red;
+}
+.fa-star {
+  color: gold;
+}
+/*trending offer section css ends*/
+
+/*banner4 section starts*/
+
+.banner4-section img {
+  width: 100%;
+  height: 100%;
+}
+/*banner4 section ends*/
+
+/* new arrival css starts */
+.new-arrival-wrapper .card{
+  border: 0;
+  margin-bottom: 1.5rem;
+}
+.new-arrival-wrapper .card img {
+  width: 75%;
+  height: 15rem;
+  object-fit: cover;
+  margin: auto;
+}
+/* new arrival css ends */
+
+/* newsletter css starts */
+section.newsletter-section{
+  position: relative;
+}
+section.newsletter-section .newsletter-text-part {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.newsletter-text-part h2{
+  color: #fff;
+  width: 75%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.newsletter-text-part input{
+  border: 1px solid #ec812f;
+  padding: 0.625rem;
+  height: 2.5rem;
+  width: 20rem;
+  position: relative;
+}
+.newsletter-text-part input:focus{
+  border: 1px solid #ec812f;
+  outline: 0;
+}
+.newsletter-text-part .fa-paper-plane{
+  position: absolute;
+  background-color: #ec812f;
+  cursor: pointer;
+  padding: 0.7rem;
+  color: #fff;
+}
+.newsletter-text-part p{
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+/* newsletter css ends */
+
+/*sponsors section css starts*/
+.sponsers-image-wrapper a img{
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0rem #bdbaba;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+/*sponsors section css ends*/
+/*main css ends*/
+
+/* footer css starts */
+footer{
+  background: var(--orange);
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+}
+/* footer css ends */

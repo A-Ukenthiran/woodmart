@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--custom css file link-->
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--bootstrap cdn-->
+    <link href="assets/bootstrap-5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <!--font-awesome cdn-->
+    <link href="assets/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/slick/slick/slick.css" rel="stylesheet">
+    <link href="assets/slick/slick/slick-theme.css" rel="stylesheet">
+    <title>Seller Login</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
+</head>
+
+<body>
+    <!-- header starts -->
+    <header class="header">
+        <!-- up header -->
+        <div class="logo-section">
+            <div class="custom-container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="logo-section">
+                            <a href="#" class="logo-text">Wood Mart</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search Products" />
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-bar">
+            <div class="custom-container">
+                <div class="row h-100">
+                    <div class="col-lg-6">
+                        <div id="nav-links"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="icon-links"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--header ends-->
+
+    <!--footer section starts-->
+    <footer class="footer text-white">
+        <div id="footer-links"></div>
+    </footer>
+    <!--footer section ends-->
+    <script src="assets/bootstrap-5.3.3/js/bootstrap.min.js"></script>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/slick/slick/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- load header-links and footer-links -->
+    <script>
+        $(document).ready(function () {
+            $("#nav-links").load("nav-links.html");
+            $("#icon-links").load("icon-links.html");
+            $("#footer-links").load("footer-links.html");
+        });
+    </script>
+</body>
+</html>
